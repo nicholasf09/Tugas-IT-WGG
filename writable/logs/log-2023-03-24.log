@@ -1,0 +1,329 @@
+CRITICAL - 2023-03-24 05:44:11 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-24 05:44:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-24 05:44:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-24 05:44:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-24 05:31:23 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Panduganteng.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Panduganteng.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Panduganteng')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Panduganteng')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Panduganteng', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:34:16 --> Call to a member function tampilkan_data() on null
+in APPPATH\Controllers\KelasInput.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:34:35 --> Call to a member function tampilkan_data() on null
+in APPPATH\Controllers\KelasInput.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:35:20 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(13): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:36:14 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(14): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:36:27 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(14): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:36:43 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(14): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\KelasInput->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:37:30 --> Call to undefined method App\Models\KelasInputModel::tampilkan_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\KelasInput.php(14): CodeIgniter\Model->__call('tampilkan_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:37:38 --> Undefined constant "title"
+in APPPATH\Views\kelas\index.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 4 APPPATH\Controllers\KelasInput.php(16): view('kelas/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:37:59 --> Undefined variable $data_kelas
+in APPPATH\Views\kelas\index.php on line 65.
+ 1 APPPATH\Views\kelas\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'APPPATH\\Views\\kelas\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(16): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:38:10 --> Undefined variable $data_kelas
+in APPPATH\Views\kelas\index.php on line 65.
+ 1 APPPATH\Views\kelas\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kelas', 'APPPATH\\Views\\kelas\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(16): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-24 06:38:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'trainingwgg23', 3306, '', 0)
+#1 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\LatihanWGG.com\app\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\LatihanWGG.com\app\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+#6 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+#7 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+#8 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\LatihanWGG.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\LatihanWGG.com\app\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\LatihanWGG.com\app\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+#5 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+#6 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+#7 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\LatihanWGG.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 06:38:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`', [], false)
+ 3 APPPATH\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-24 06:39:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'trainingwgg23', 3306, '', 0)
+#1 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\LatihanWGG.com\app\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\LatihanWGG.com\app\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+#6 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+#7 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+#8 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\LatihanWGG.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\LatihanWGG.com\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\LatihanWGG.com\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\LatihanWGG.com\app\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\LatihanWGG.com\app\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+#5 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+#6 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+#7 C:\xampp\htdocs\LatihanWGG.com\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\LatihanWGG.com\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 06:39:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelas`', [], false)
+ 3 APPPATH\Models\KelasInputModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\KelasInput.php(14): App\Models\KelasInputModel->tampilkan_data()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 06:39:13 --> Undefined constant "kelas"
+in APPPATH\Views\kelas\index.php on line 70.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 4 APPPATH\Controllers\KelasInput.php(16): view('kelas/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:47:21 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:50:41 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:50:42 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:50:42 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:50:43 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:50:43 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:53:15 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:53:15 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:55:01 --> Undefined variable $title
+in APPPATH\Views\kelas\tambah.php on line 7.
+ 1 APPPATH\Views\kelas\tambah.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\tambah.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 5 APPPATH\Controllers\KelasInput.php(21): view('kelas/tambah.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:53:43 --> syntax error, unexpected double-quoted string " placeholder=", expecting "," or ";"
+in APPPATH\Views\kelas\tambah.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(75): view('kelas/tambah.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:53:45 --> syntax error, unexpected double-quoted string " placeholder=", expecting "," or ";"
+in APPPATH\Views\kelas\tambah.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(75): view('kelas/tambah.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:53:46 --> syntax error, unexpected double-quoted string " placeholder=", expecting "," or ";"
+in APPPATH\Views\kelas\tambah.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(75): view('kelas/tambah.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 09:53:46 --> syntax error, unexpected double-quoted string " placeholder=", expecting "," or ";"
+in APPPATH\Views\kelas\tambah.php on line 70.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah.php', [], true)
+ 3 APPPATH\Controllers\KelasInput.php(75): view('kelas/tambah.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\KelasInput->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelasInput))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
